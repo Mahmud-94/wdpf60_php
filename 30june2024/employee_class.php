@@ -42,9 +42,18 @@ echo $obj1->info();
 echo"<br>";
 
 $prog1 = new programmer;
-echo "salary".$prog1-> ."<br>";
-echo $prog1->bonus(.10);
+echo "salary: " .$prog1-> wage;
+echo "Bonus: " . $prog1->bonus(".10");
 
 
 
 ?>
+
+
+echo $obj1->info();
+
+
+echo "<br>";
+$prog1 = new Programmer;
+echo "Salary: ". $prog1->wage;
+echo "Bonus: ".  $prog1->bonus(".10");
