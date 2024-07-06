@@ -10,13 +10,7 @@
 <?php
 if(isset($_REQUEST["submit"])){
     $stid = $_REQUEST['stid'];
-    show_result($stid);
-}
 
-
-    function show_result($stid){
-
-   
     $datas = file('result.txt');
     // echo'<pre>';
     // print_r($data);
@@ -26,12 +20,10 @@ if(isset($_REQUEST["submit"])){
         $line = explode("|", $data);
         list($id, $name, $score, $result, $grade) = $line;
         if($id == $stid){
-            $output = $id . $name . $score . $result . $grade;
+            echo $id, $name, $score, $result , $grade;
             }
         }
-        echo $output;
     }
-   
 
 
 ?>

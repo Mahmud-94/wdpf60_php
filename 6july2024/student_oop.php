@@ -10,19 +10,25 @@
 <?php
 if(isset($_REQUEST["submit"])){
     $stid = $_REQUEST['stid'];
-    show_result($stid);
+
+    $obj = new student("result.txt");
+    $obj->show_result($stid);
 }
 
+class student {
+    public $datas;
+    public $arraydata;
 
-    function show_result($stid){
-
-   
+    public function __construct($file) {
+        $this->datas = $file;
+        $this->arraydata = file($this->datas);
+    }
+    
+    public function show_result($stid){
+ 
     $datas = file('result.txt');
-    // echo'<pre>';
-    // print_r($data);
-
-
-    foreach($datas as $data){
+    
+    foreach($this->arraydata as $data){
         $line = explode("|", $data);
         list($id, $name, $score, $result, $grade) = $line;
         if($id == $stid){
@@ -32,7 +38,7 @@ if(isset($_REQUEST["submit"])){
         echo $output;
     }
    
-
+}
 
 ?>
     <form action="" method="post">
