@@ -9,10 +9,10 @@
 
 <?php
 if(isset($_REQUEST["submit"])){
-    $stid = $_REQUEST['stid'];
+    $pid = $_REQUEST['nid'];
 
-    $obj = new student("result.txt");
-    $obj->show_result($stid);
+    $obj = new student("product.txt");
+    $obj->show_result($pid);
 }
 
 class student {
@@ -24,15 +24,15 @@ class student {
         $this->arraydata = file($this->datas);
     }
     
-    public function show_result($stid){
+    public function show_result($pid){
  
-    // $datas = file('result.txt');
+    $datas = file('product.txt');
     
     foreach($this->arraydata as $data){
         $line = explode("|", $data);
-        list($id, $name, $score, $result, $grade) = $line;
-        if($id == $stid){
-            $output = $id . $name . $score . $result . $grade;
+        list($id, $name, $price) = $line;
+        if($id == $pid){
+            $output ="ID: " . $id ."<br>" . "Product name: " . $name ."<br>" . "Price: " . $price;
             }
         }
         echo $output;
@@ -42,11 +42,11 @@ class student {
 
 ?>
     <form action="" method="post">
-        <select name="stid" id="">
+        <select name="nid" id="">
         <option value="">Select one</option>
-            <option value="1">Abir</option>
-            <option value="2">Hasan</option>
-            <option value="3">Tamim</option>
+            <option value="p10">p10</option>
+            <option value="p20">p20</option>
+            <option value="p30">p30</option>
         </select>
 
         <input type="submit" name="submit" value="Show result">
