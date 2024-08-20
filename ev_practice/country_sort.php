@@ -9,7 +9,6 @@
     <h1>Country and capital where country wise sorting</h1>
 
 <?php 
-
 $countries = [
     "Bangladesh"=> "Dhaka",
     "Srilanka"=> "Colombo",
@@ -18,13 +17,10 @@ $countries = [
     "China"=> "Beijing",
     "Japaqn"=> "Tokyo",
 ];
-
 echo "<pre>";
 print_r($countries);
 echo "</pre>";
 echo"<hr>";
-
-
 ksort($countries);
 
 foreach ($countries as $country=>$capital) {
@@ -34,9 +30,6 @@ foreach ($countries as $country=>$capital) {
 //echo "<pre>";
 //print_r($countries);
 
-
-
-?>
-    
+?>   
 </body>
 </html>

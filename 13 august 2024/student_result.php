@@ -14,7 +14,6 @@
             <th>Student name</th>
             <th>Obtained score</th>
         </tr>
-    
 
     <?php 
     foreach($result as $name=>$score){
@@ -22,10 +21,8 @@
         echo "<td>$name</td>";
         echo "<td>$score</td>";
         echo "</tr>";
-
-    }
-
-    ?>
+    }    ?>
+    
     <tr>
         <td colspan="2">
             <?php $maxscore = max($result);

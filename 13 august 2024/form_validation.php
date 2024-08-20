@@ -29,20 +29,14 @@
         if (empty($name)) {
             $errors[] = "You must enter name";
         }
-
-
             if(isset($_REQUEST["gender"])){
             $gender = $_REQUEST["gender"];
-
             }
-
-         else{
+        else{
             if(empty($gender)==""){
                 $errors[] = "You must select gender";
            }  
         }
-
-
         $district = $_REQUEST["district"];
         if ($district == "") {
             $errors[] = "You must enter district";
@@ -55,13 +49,7 @@
 
         return $errors;
     }
-
-
     ?>
-
-
-
-
 
     <form action="" method="post">
         <input type="text" name="name" placeholder="Enter your name" id=""><br>
@@ -88,5 +76,4 @@
     </form>
 
 </body>
-
 </html>
