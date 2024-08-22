@@ -13,6 +13,10 @@
 <body>
 <h3>Product edit</h3>
 <?php 
+// category list collect
+$sql = "SELECT * FROM catagories";
+$cats= $db->query($sql);
+
     $ID = $_REQUEST['ID'];
     
 
@@ -24,7 +28,7 @@ if(isset($_POST['update'])){
     extract($_POST);
 
    
-    $sql = "UPDATE product set Name = '$product',  Details = '$details', Price='$price', Quantity='$quantity' WHERE ID = '$ID'";
+    $sql = "UPDATE product set Name = '$product',  Details = '$details', Price='$price', Quantity='$quantity', categories ='$category' WHERE ID = $ID";
 
     
 
@@ -38,7 +42,7 @@ if(isset($_POST['update'])){
 }
 
 //Getting data from table
-$sql = "SELECT * FROM product WHERE ID=$ID";
+$sql = "SELECT * FROM product WHERE ID='$ID'";
     $data = $db->query($sql);
     $row = $data->fetch_object();
 
@@ -55,8 +59,20 @@ $sql = "SELECT * FROM product WHERE ID=$ID";
     <input type="text" name="price" id="" placeholder="Enter your product's price" value="<?php echo $row->Price; ?>"><br>
     Quantity:<br>
     <input type="number" name="quantity" placeholder="Enter your product's quantity" id="" value="<?php echo $row->Quantity; ?>"><br>
+
+    Category: <br>
+    <select name="category" id="">
+        <option value="">Select one</option>
+        <?php 
+        while(($cat = $cats->fetch_assoc())){?>
+            <option value="<?php echo $cat['cat_id']?>"<?php echo $row->catagories==$cat['cat_id']?"selected" : ""; ?>   ><?php echo $cat['cat_name']?></option>
+        <?php }
+        ?>
+    </select><br>
+
     <input type="submit" name="update" value="Update" id=""><br>
-    <input type="hidden" name="ID" id="" value="<?php echo $row->ID; ?>" ><br>
+    <input type="hidden" name="ID" id="" value="<?php echo $ID; ?>" ><br>
+    
 </form>
 
 

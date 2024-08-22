@@ -11,6 +11,7 @@
 <body>
 <h3>Product entry</h3>
 <?php  
+    // category list collect
     $sql = "SELECT * FROM catagories";
    $cats= $db->query($sql);
 
@@ -23,10 +24,10 @@ if(isset($_POST['submit'])){
 
     $result = $db->query($sql);
 
-    if($db->affected_rows){
-        echo "Successfully Added";
-    } else {
+    if($db->error){
         echo "Failed";
+    } else {
+        echo "Successfully Added";
     }
 }
 
