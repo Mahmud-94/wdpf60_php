@@ -1,4 +1,5 @@
-<?php $db = new mysqli("localhost", "root", "", "tclk_60") ?>
+<?php $db = new mysqli("localhost", "root", "", "ev_xm"); ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +11,8 @@
 <body><?php
 if(isset($_POST['submit'])){
         extract($_POST);
-       if($db->query("CALL add_manufacturer('$name', '$address', '$contact')")){
+
+       if($db->query("CALL ins('$name', '$address', '$contact')")){
         echo "Successfully Added";
        }
        else{
@@ -21,17 +23,15 @@ if(isset($_POST['submit'])){
 
 
 <form action="" method="post">
-    <input type="text" name="name" id="" placeholder="Enter manufacturer name"><br>
-    <textarea name="address" id=""></textarea><br>
-    <input type="text" name="contact"><br>
+    <input type="text" name="name" id="" placeholder="Enter manufacturer name"><br><br>
+
+    <textarea name="address" id="" placeholder="Enter your address"></textarea><br><br>
+
+    <input type="text" name="contact" placeholder="Enter contact number"><br><br>
+
     <input type="submit" name="submit" value="Submit" id="">
 </form>
-<a href="manufacturer.php">Manufacturer List</a>
+<a href="manufacturer_del.php">Manufacturer List</a>
     
 </body>
 </html>
-
-
-
-
-
