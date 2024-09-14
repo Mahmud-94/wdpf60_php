@@ -29,7 +29,7 @@
     <!-- search popup start-->
     <div class="body-overlay" id="body-overlay"></div>
     <div class="td-search-popup" id="td-search-popup">
-        <form action="index.php" class="search-form">
+        <form action="index.html" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
@@ -50,36 +50,36 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="index.php"><img src="assets/img/logo.png" alt="img"></a>
+                    <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
-                    <a class="btn btn-base" href="add-property.php">Submit</a>
+                    <a class="btn btn-base" href="add-property.html">Submit</a>
                 </div>
                 <div class="collapse navbar-collapse" id="dkt_main_menu">
                     <ul class="navbar-nav menu-open text-center">
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index.html">Home</a>
 
                         </li>
                         <li>
-                            <a href="property-left-sidebar.php">Property</a>
+                            <a href="property-left-sidebar.html">Property</a>
 
                         </li>
                         <li>
-                            <a href="about.php">About</a>
+                            <a href="about.html">About</a>
 
                         </li>
                         <li>
-                            <a href="blog-grid.php">Blog</a>
+                            <a href="blog-grid.html">Blog</a>
 
                         </li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
                     <ul>
                         <li><a class="search" href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a class="btn btn-base" href="add-property.php">Submit <i class="fa fa-plus"></i></a></li>
+                        <li><a class="btn btn-base" href="add-property.html">Submit <i class="fa fa-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                 <div class="section-title text-center">
                     <h2 class="page-title">Blog</h2>
                     <ul class="page-list">
-                        <li><a href="index.php"></a></li>
+                        <li><a href="index.html"></a></li>
                         <li></li>
                     </ul>
                 </div>
@@ -117,7 +117,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Family House</a></h4>
+                            <h4><a href="blog-details.html">Family House</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -132,7 +132,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Villa House</a></h4>
+                            <h4><a href="blog-details.html">Villa House</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -147,7 +147,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Beach Side House</a></h4>
+                            <h4><a href="blog-details.html">Beach Side House</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -162,7 +162,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Hotel Apartment</a></h4>
+                            <h4><a href="blog-details.html">Hotel Apartment</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -177,7 +177,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Daily Apartment</a></h4>
+                            <h4><a href="blog-details.html">Daily Apartment</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -192,7 +192,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Farm House</a></h4>
+                            <h4><a href="blog-details.html">Farm House</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -207,7 +207,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Villa House</a></h4>
+                            <h4><a href="blog-details.html">Villa House</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -222,7 +222,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Beach Side House</a></h4>
+                            <h4><a href="blog-details.html">Beach Side House</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -237,7 +237,7 @@
                                 <li><i class="fa fa-user"></i>By Admin</li>
                                 <li><i class="fa fa-calendar-alt"></i>Marce 9 , 2020</li>
                             </ul>
-                            <h4><a href="blog-details.php">Hotel Apartment</a></h4>
+                            <h4><a href="blog-details.html">Hotel Apartment</a></h4>
                             <p>Lorem ipsum dolor consectetur iicing elit, sed do eius Lorem ipsum dolo amet, costur adipisicing eiusmod.</p>
                         </div>        
                     </div>
@@ -253,7 +253,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-4">
-                        <a href="index.php"><img src="assets/img/logo.png" alt="img"></a>
+                        <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
                     </div>
                     <div class="col-lg-6 col-md-8 text-md-right mt-3 mt-md-0">
                         <ul class="social-area">
@@ -284,10 +284,10 @@
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Quick link</h4>
                             <ul>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="property.php">Property</a></li>
-                                <li><a href="add-property.php">Add Property</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="property.html">Property</a></li>
+                                <li><a href="add-property.html">Add Property</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -295,10 +295,10 @@
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Categories</h4>
                             <ul>
-                                <li><a href="blog.php">Arts & Design</a></li>
-                                <li><a href="blog.php">Business</a></li>
-                                <li><a href="blog.php">Computer Science</a></li>
-                                <li><a href="blog.php">Data Science</a></li>
+                                <li><a href="blog.html">Arts & Design</a></li>
+                                <li><a href="blog.html">Business</a></li>
+                                <li><a href="blog.html">Computer Science</a></li>
+                                <li><a href="blog.html">Data Science</a></li>
                             </ul>
                         </div>
                     </div>
@@ -326,16 +326,16 @@
                     <div class="col-lg-6 text-lg-right">
                         <ul>
                             <li>
-                                <a href="index.php">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="about.php">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="blog.php">Blog</a>
+                                <a href="blog.html">Blog</a>
                             </li>
                             <li>
-                                <a href="contact.php">Contact</a>
+                                <a href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>

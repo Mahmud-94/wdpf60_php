@@ -29,7 +29,7 @@
     <!-- search popup start-->
     <div class="body-overlay" id="body-overlay"></div>
     <div class="td-search-popup" id="td-search-popup">
-        <form action="index.php" class="search-form">
+        <form action="index.html" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
@@ -50,36 +50,36 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="index.php"><img src="assets/img/logo.png" alt="img"></a>
+                    <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
-                    <a class="btn btn-base" href="add-property.php">Submit</a>
+                    <a class="btn btn-base" href="add-property.html">Submit</a>
                 </div>
                 <div class="collapse navbar-collapse" id="dkt_main_menu">
                     <ul class="navbar-nav menu-open text-center">
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index.html">Home</a>
 
                         </li>
                         <li>
-                            <a href="property-left-sidebar.php">Property</a>
+                            <a href="property-left-sidebar.html">Property</a>
 
                         </li>
                         <li>
-                            <a href="about.php">About</a>
+                            <a href="about.html">About</a>
 
                         </li>
                         <li>
-                            <a href="blog-grid.php">Blog</a>
+                            <a href="blog-grid.html">Blog</a>
 
                         </li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
                     <ul>
                         <li><a class="search" href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a class="btn btn-base" href="add-property.php">Submit <i class="fa fa-plus"></i></a></li>
+                        <li><a class="btn btn-base" href="add-property.html">Submit <i class="fa fa-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -88,13 +88,13 @@
     <!-- navbar end -->
     
     <!-- breadcrumb start -->
-    <div class="breadcrumb-area bg-overlay-2" style="background-image:url('assets/img/other/4.png')">
+    <div class="breadcrumb-area bg-overlay-2" style="background-image:url('assets/img/other/77.jpg')">
         <div class="container">
             <div class="breadcrumb-inner">
                 <div class="section-title text-center">
                     <h2 class="page-title">About Us</h2>
                     <ul class="page-list">
-                        <li><a href="index.php"></a></li>
+                        <li><a href="index.html"></a></li>
                         <li></li>
                     </ul>
                 </div>
@@ -187,7 +187,7 @@
                             <img src="assets/img/service/1.png" alt="icon">
                         </div>
                         <div class="single-service-details">
-                            <h4><a href="property-details.php">Sell Poparty</a></h4>
+                            <h4><a href="property-details.html">Sell Poparty</a></h4>
                             <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                             <img src="assets/img/service/2.png" alt="icon">
                         </div>
                         <div class="single-service-details">
-                            <h4><a href="property-details.php">Daily Apartment</a></h4>
+                            <h4><a href="property-details.html">Daily Apartment</a></h4>
                             <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                             <img src="assets/img/service/3.png" alt="icon">
                         </div>
                         <div class="single-service-details">
-                            <h4><a href="property-details.php">Family House</a></h4>
+                            <h4><a href="property-details.html">Family House</a></h4>
                             <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                         </div>
                     </div>
@@ -233,7 +233,7 @@
                             <img src="assets/img/agent/77.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Sandara Mrikon</h4>
+                            <h4>Joy</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -250,7 +250,7 @@
                             <img src="assets/img/agent/88.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Sarif Miprut</h4>
+                            <h4>Tamim</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -267,7 +267,7 @@
                             <img src="assets/img/agent/99.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Jordan Smith</h4>
+                            <h4>Abir</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -284,7 +284,7 @@
                             <img src="assets/img/agent/1010.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Jaya Sarif</h4>
+                            <h4>Jamil</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -301,7 +301,7 @@
                             <img src="assets/img/agent/1111.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Sandara Mrikon</h4>
+                            <h4>Rakib</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -318,7 +318,7 @@
                             <img src="assets/img/agent/1212.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Sarif Miprut</h4>
+                            <h4>Nusrat</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -335,7 +335,7 @@
                             <img src="assets/img/agent/1313.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Jordan Smith</h4>
+                            <h4>Mohiuddin</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -352,7 +352,7 @@
                             <img src="assets/img/agent/1414.jpg" alt="img">
                         </div> 
                         <div class="details">
-                            <h4>Jaya Sarif</h4>
+                            <h4>Nazrul</h4>
                             <h6>Estate Agent</h6>
                             <ul class="social-area style-2">
                                 <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -464,7 +464,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-4">
-                        <a href="index.php"><img src="assets/img/logo.png" alt="img"></a>
+                        <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
                     </div>
                     <div class="col-lg-6 col-md-8 text-md-right mt-3 mt-md-0">
                         <ul class="social-area">
@@ -495,10 +495,10 @@
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Quick link</h4>
                             <ul>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="property.php">Property</a></li>
-                                <li><a href="add-property.php">Add Property</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="property.html">Property</a></li>
+                                <li><a href="add-property.html">Add Property</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -506,10 +506,10 @@
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Categories</h4>
                             <ul>
-                                <li><a href="blog.php">Arts & Design</a></li>
-                                <li><a href="blog.php">Business</a></li>
-                                <li><a href="blog.php">Computer Science</a></li>
-                                <li><a href="blog.php">Data Science</a></li>
+                                <li><a href="blog.html">Arts & Design</a></li>
+                                <li><a href="blog.html">Business</a></li>
+                                <li><a href="blog.html">Computer Science</a></li>
+                                <li><a href="blog.html">Data Science</a></li>
                             </ul>
                         </div>
                     </div>
@@ -537,16 +537,16 @@
                     <div class="col-lg-6 text-lg-right">
                         <ul>
                             <li>
-                                <a href="index.php">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="about.php">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="blog.php">Blog</a>
+                                <a href="blog.html">Blog</a>
                             </li>
                             <li>
-                                <a href="contact.php">Contact</a>
+                                <a href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>

@@ -31,7 +31,7 @@
     <!-- search popup start-->
     <div class="body-overlay" id="body-overlay"></div>
     <div class="td-search-popup" id="td-search-popup">
-        <form action="index.php" class="search-form">
+        <form action="index.html" class="search-form">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search.....">
             </div>
@@ -52,36 +52,36 @@
                     </button>
                 </div>
                 <div class="logo">
-                    <a href="index.php"><img src="assets/img/logo.png" alt="img"></a>
+                    <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
                 </div>
                 <div class="nav-right-part nav-right-part-mobile">
-                    <a class="btn btn-base" href="add-property.php">Submit</a>
+                    <a class="btn btn-base" href="add-property.html">Submit</a>
                 </div>
                 <div class="collapse navbar-collapse" id="dkt_main_menu">
                     <ul class="navbar-nav menu-open text-center">
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index.html">Home</a>
 
                         </li>
                         <li>
-                            <a href="property-left-sidebar.php">Property</a>
+                            <a href="property-left-sidebar.html">Property</a>
 
                         </li>
                         <li>
-                            <a href="about.php">About</a>
+                            <a href="about.html">About</a>
 
                         </li>
                         <li>
-                            <a href="blog-grid.php">Blog</a>
+                            <a href="blog-grid.html">Blog</a>
 
                         </li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="nav-right-part nav-right-part-desktop">
                     <ul>
                         <li><a class="search" href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a class="btn btn-base" href="add-property.php">Submit <i class="fa fa-plus"></i></a></li>
+                        <li><a class="btn btn-base" href="add-property.html">Submit <i class="fa fa-plus"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                 <div class="section-title text-center">
                     <h2 class="page-title">Property</h2>
                     <ul class="page-list">
-                        <li><a href="index.php"></a></li>
+                        <li><a href="index.html"></a></li>
                         <li></li>
                     </ul>
                 </div>
@@ -154,7 +154,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Daily Apartment</a></h4>
+                                    <h4><a href="property-details.html">Daily Apartment</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -188,7 +188,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Family House</a></h4>
+                                    <h4><a href="property-details.html">Family House</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -222,7 +222,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Beach House</a></h4>
+                                    <h4><a href="property-details.html">Beach House</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -256,7 +256,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Hotel Apartment</a></h4>
+                                    <h4><a href="property-details.html">Hotel Apartment</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -290,7 +290,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Daily Apartment</a></h4>
+                                    <h4><a href="property-details.html">Daily Apartment</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -324,7 +324,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Villa House</a></h4>
+                                    <h4><a href="property-details.html">Villa House</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -358,7 +358,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Sunshine Place</a></h4>
+                                    <h4><a href="property-details.html">Sunshine Place</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -392,7 +392,7 @@
                                     </div>
                                 </div>
                                 <div class="product-details-inner">
-                                    <h4><a href="property-details.php">Sunny Place</a></h4>
+                                    <h4><a href="property-details.html">Sunny Place</a></h4>
                                     <ul class="meta-inner">
                                         <li><img src="assets/img/icon/location2.png" alt="img">New York</li>
                                         <li><a href="#">For Sell</a></li>
@@ -467,7 +467,7 @@
                                     <img src="assets/img/blog/55.png" alt="img">
                                 </div>
                                 <div class="media-body align-self-center">
-                                    <h6><a href="blog-details.php">Dolor eorem ipsum sit amet Lorem ipsum</a></h6>
+                                    <h6><a href="blog-details.html">Dolor eorem ipsum sit amet Lorem ipsum</a></h6>
                                     <p class="date"><i class="far fa-calendar-alt"></i>25 Aug 2020</p>
                                 </div>
                             </div>
@@ -476,7 +476,7 @@
                                     <img src="assets/img/blog/66.png" alt="img">
                                 </div>
                                 <div class="media-body align-self-center">
-                                    <h6><a href="blog-details.php">Responsive Web And Desktop Develope</a></h6>
+                                    <h6><a href="blog-details.html">Responsive Web And Desktop Develope</a></h6>
                                     <p class="date"><i class="far fa-calendar-alt"></i>25 Aug 2020</p>
                                 </div>
                             </div>
@@ -485,7 +485,7 @@
                                     <img src="assets/img/blog/77.png" alt="img">
                                 </div>
                                 <div class="media-body align-self-center">
-                                    <h6><a href="blog-details.php">Admin Web is Django Highlig Models</a></h6>
+                                    <h6><a href="blog-details.html">Admin Web is Django Highlig Models</a></h6>
                                     <p class="date"><i class="far fa-calendar-alt"></i>25 Aug 2020</p>
                                 </div>
                             </div>
@@ -516,7 +516,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-4">
-                        <a href="index.php"><img src="assets/img/logo.png" alt="img"></a>
+                        <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
                     </div>
                     <div class="col-lg-6 col-md-8 text-md-right mt-3 mt-md-0">
                         <ul class="social-area">
@@ -547,10 +547,10 @@
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Quick link</h4>
                             <ul>
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="property.php">Property</a></li>
-                                <li><a href="add-property.php">Add Property</a></li>
-                                <li><a href="contact.php">Contact Us</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="property.html">Property</a></li>
+                                <li><a href="add-property.html">Add Property</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -558,10 +558,10 @@
                         <div class="widget widget_nav_menu">
                             <h4 class="widget-title">Categories</h4>
                             <ul>
-                                <li><a href="blog.php">Arts & Design</a></li>
-                                <li><a href="blog.php">Business</a></li>
-                                <li><a href="blog.php">Computer Science</a></li>
-                                <li><a href="blog.php">Data Science</a></li>
+                                <li><a href="blog.html">Arts & Design</a></li>
+                                <li><a href="blog.html">Business</a></li>
+                                <li><a href="blog.html">Computer Science</a></li>
+                                <li><a href="blog.html">Data Science</a></li>
                             </ul>
                         </div>
                     </div>
@@ -589,16 +589,16 @@
                     <div class="col-lg-6 text-lg-right">
                         <ul>
                             <li>
-                                <a href="index.php">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
-                                <a href="about.php">About</a>
+                                <a href="about.html">About</a>
                             </li>
                             <li>
-                                <a href="blog.php">Blog</a>
+                                <a href="blog.html">Blog</a>
                             </li>
                             <li>
-                                <a href="contact.php">Contact</a>
+                                <a href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
