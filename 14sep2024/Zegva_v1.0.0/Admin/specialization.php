@@ -109,9 +109,9 @@ $sql = $db->query("SELECT * FROM `doctorspecilization`");
                                             ?>
                                                 <tr>
                                                     <td><?php echo $sn ?></td>
-                                                    <td><?php echo $row['specilization']; ?></td>
+                                                    <td class="spname"><?php echo $row['specilization']; ?></td>
 
-                                                    <td class="text-center"><a href="#"><img src="ins.png" height="20px" width="25px" alt=""></a>
+                                                    <td class="text-center"><a href="" title="Edit" data-toggle="modal" data-target=".specilization-edit-modal"><img src="ins.png" height="20px" width="25px" alt=""></a>
                                                         <a href="#"><img src="del.webp" height="20px" width="25px" alt=""></a>
 
                                                         <!-- <a href=""><i class="mdi mdi-trash-can"></i></a> -->
@@ -134,6 +134,33 @@ $sql = $db->query("SELECT * FROM `doctorspecilization`");
                         <!-- end col -->
                     </div>
                     <!-- end row -->
+
+                    <div class="modal fade specilization-edit-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title mt-0" id="mySmallModalLabel">Edit specilization</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label>specilization</label>
+                                            <input type="text" name="" id="" class="form-control">
+                                            
+                                            <input type="submit" class="btn btn-success" name="update" value="update" id="">
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </div>
+                            <!-- /.modal-content -->
+                        </div>
+                        <!-- /.modal-dialog -->
+                    </div>
 
                 </div>
                 <!-- container-fluid -->
@@ -183,6 +210,14 @@ $sql = $db->query("SELECT * FROM `doctorspecilization`");
 
     <!-- App js -->
     <script src="assets/js/app.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".spname").click(function(){
+                alert()
+            })
+        })
+    </script>
 
 </body>
 

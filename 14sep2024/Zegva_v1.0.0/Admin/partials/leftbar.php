@@ -15,9 +15,9 @@
                         <li>
                             <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-doctor"></i><span> Doctors <span class="float-right menu-arrow"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                             <ul class="submenu">
-                                <li><a href="specialization.html">Specialization</a></li>
-                                <li><a href="add_doctor.html">Add Doctor</a></li>
-                                <li><a href="manage_doctor.html">Manage Doctor</a></li>
+                                <li><a href="specialization.php">Specialization</a></li>
+                                <li><a href="add_doctor.php">Add Doctor</a></li>
+                                <li><a href="manage_doctor.php">Manage Doctor</a></li>
                             </ul>
                         </li>
 

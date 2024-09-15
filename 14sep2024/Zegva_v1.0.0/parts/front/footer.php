@@ -13,7 +13,7 @@
                             <p>Manage your health the easier way with the Sensiv Hospital mobile app. Download it today! Available on.</p>
                         </div>
                         <div class="footer-logo mt-3">
-                            <a href="index.html">
+                            <a href="index1.html">
 								<div class="footer-logo-icon">
 									<i class="icofont icofont-bed-patient"></i>
                                 </div>

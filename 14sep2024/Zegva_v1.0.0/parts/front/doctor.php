@@ -13,31 +13,31 @@
 		<div class="row">
 			<div class="team-slider owl-carousel owl-theme">
 
-				<?php include_once("admin/dbconfig.php");
+				<?php include_once("Admin/dbconfig.php");
 				$sql = $db->query("SELECT * FROM doctors");
 				while ($row = $sql->fetch_assoc()) {
-				
+
 				?>
-				<div class="single-doctor single-doctor-warp">
-					<img class="img-fluid" src="admin/doctors/<?php echo $row['image'] ?>" alt="" />
-					<div class="single-doctor-info">
-						<h4><?php echo $row['doctorName'] ?></h4>
-						<span><?php echo $row['specilization'] ?></span>
-					</div>
-					<div class="single-doctor-mask">
-						<div class="single-doctor-mask-inner">
-							<h5>About Doctor</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-							<ul>
-								<li><a href="#">Get Appointment</a></li>
-							</ul>
+					<div class="single-doctor single-doctor-warp">
+						<img class="img-fluid" src="Admin/doctors/<?php echo $row['image'] ?>" alt="" />
+						<div class="single-doctor-info">
+							<h4><?php echo $row['doctorName'] ?></h4>
+							<span><?php echo $row['specilization'] ?></span>
+						</div>
+						<div class="single-doctor-mask">
+							<div class="single-doctor-mask-inner">
+								<h5>About Doctor</h5>
+								<p><?php echo $row['details'] ?></p>
+								<ul>
+									<li><a href="">Get Appointment</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
 
 
-				<!-- end single doctor -->
-				 <?php } ?>
+					<!-- end single doctor -->
+				<?php } ?>
 			</div>
 		</div>
 	</div>

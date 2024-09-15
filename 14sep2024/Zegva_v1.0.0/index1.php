@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -29,7 +31,7 @@
 	<!-- END SLIDER SECTION  -->
 	
 	<!-- START ABOUT SECTION -->
-    <?php include "parts/front/about.php"; ?>
+    <?php include "parts/about.php"; ?>
     <!-- END ABOUT SECTION -->
 	
 	<!-- START SERViCE SECTION -->
